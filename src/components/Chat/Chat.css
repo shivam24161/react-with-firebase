@@ -1,0 +1,53 @@
+.google-signin {
+  margin-bottom: 20px;
+}
+.chat-container{
+  height: 70vh;
+  overflow-y:scroll;
+  border: 1px solid black;
+  padding:10px;
+}
+.container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.me {
+  justify-content: flex-end;
+}
+.chatbox {
+  background-color: rgb(62,67,67);
+  color:rgb(245,245,245);
+  padding: 10px;
+  border-top-left-radius:18px;
+  border-bottom-right-radius:18px;
+  border-top-right-radius:18px;
+  margin: 0;
+  max-width: 80%;
+  word-wrap: break-word;
+  line-height: 1.4;
+}
+.chatbox span {
+  display: block;
+}
+.btm{
+  position: fixed;
+  width: 95%;
+  padding: 0 10px 0 10px;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.btm button{
+  padding: 8px 25px;
+}
+.me .chatbox {
+  background-color: rgb(55, 151, 240);
+  color:white;
+}
+@media (max-width: 480px) {
+  .chatbox {
+    max-width: 60%;
+  }
+}
