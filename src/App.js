@@ -1,14 +1,11 @@
-import React from 'react'
-import Chat from './components/Chat/Chat'
-import Login from './components/Login/Login'
-
+import React from "react";
+import Chat from "./components/Chat/Chat";
 const App = () => {
   return (
-   <>
-   {/* <Login/> */}
-   <Chat/>
-   </>
-  )
-}
+    <>
+      <Chat />
+    </>
+  );
+};
 
-export default App
+export default App;
